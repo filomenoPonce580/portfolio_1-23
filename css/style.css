@@ -1,0 +1,93 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header, main, footer {
+  border: 1px solid rgb(63, 33, 33);
+  font-family: 'Lora', serif;
+}
+
+
+section{
+  border: 1px dotted white;
+}
+
+.divider{
+  width: 50%;
+  border: 1.5px solid rgba(95, 54, 54, 0.767);
+  border-radius: 3px;
+  margin: auto;
+}
+
+*{
+  text-align: center;
+}
+
+/*set up root font size*/
+html{
+  font-size: 16px;
+}
+
+ul{
+  border: 1px dotted black;
+}
+
+li {
+  width: 50%;
+  /*margin on left set at 23.5% because I could not figure out how to align li's centrally*/
+  margin: 0 25% 0 23.5%;
+  list-style: none;
+}
+
+
+/*header and footer are essentially mirrored*/
+header, footer{
+  height: 160px;
+  background-color: rgb(95, 54, 54);
+}
+
+main{
+  background-color: rgb(233, 222, 183);
+  color: rgb(69, 38, 38);
+}
+
+/*Header*/
+header{
+  color: rgb(232, 225, 193);
+}
+
+h1{
+  color: rgb(232, 225, 193);
+  text-decoration: underline;
+  height: 50px;
+  margin: 35px 0 10px 0;
+  padding-top: 5px;
+  font-size: 2.25rem;
+}
+
+header span{
+  font-size: 1.15rem;
+  padding-top: 0px;
+  margin-top: 5px;
+  border: 1px solid white;
+}
+
+
+/*Intro section*/
+.intro{
+  height: 400px;
+  padding: 50px 0;
+  border: 1px blue solid;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
