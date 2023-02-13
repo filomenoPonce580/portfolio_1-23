@@ -1,5 +1,5 @@
-/******************************************
-CSS
+/****************************************************************
+CSS Page
 */
 
 /* Box Model Hack */
@@ -7,7 +7,7 @@ CSS
   box-sizing: border-box;
 }
 
-/******************************************
+/*******************************************************************
 LAYOUT
 
 first set up general layout styles
@@ -18,9 +18,10 @@ header, main, footer {
   font-family: 'Lora', serif;
 }
 
-
+/*section with .divider class
+   - creates a thing line that divides sections on page*/
 .divider{
-  width: 50%;
+  width: 30%;
   border: 1.5px solid rgba(95, 54, 54, 0.767);
   border-radius: 3px;
   margin: auto;
@@ -36,6 +37,11 @@ html{
   background-color: rgb(95, 54, 54);
 }
 
+h2{
+  font-size: 1.7em;
+  font-weight: 400;
+}
+
 
 li {
   width: 50%;
@@ -47,8 +53,9 @@ li {
 
 /*header and footer are essentially mirrored*/
 header, footer{
-  height: 140px;
+  height: 100px;
   background-color: rgb(95, 54, 54);
+  color: rgb(232, 225, 193);
 }
 
 main{
@@ -56,6 +63,8 @@ main{
   color: rgb(78, 42, 42);
 }
 
+
+/*set a predetermined width for p's*/
 p{
   width: 550px;
   margin: 20px auto;
@@ -73,48 +82,50 @@ ul{
 }
 
 
-/*Header*/
-header{
-  color: rgb(232, 225, 193);
-}
+/******************* Header *******************************************/
 
 h1{
   color: rgb(232, 225, 193);
   text-decoration: underline;
   height: 50px;
-  margin: 35px 0 10px 0;
-  padding-top: 5px;
-  font-size: 2.25rem;
+  margin: 25px 0 5px 0;
+  padding-top: 0px;
+  font-size: 2.4rem;
+  font-weight: 700;
 }
 
 header span{
   font-size: 1.15rem;
   padding-top: 0px;
-  margin-top: 5px;
 }
 
 
-/*Intro section*/
+/****************** Intro section ************************************/
 .intro{
-  height: 400px;
-  padding: 50px 0;
+  height: 700px;
+  padding: 20px 0;
 }
 
-h2{
-  font-size: 1.7em ;
-
+.intro img{
+  width: 200px;
+  margin-top: 20px;
+  box-shadow: 0px 0px 10px 3px rgba(113, 59, 59, 0.722);
+  border-radius: 5px;
 }
 
 
 
 
-/*Contact section*/
+/******************* Contact section *************************************/
+
+/*add pseudoclasses for links. 
+    - adds responsiveness*/
 a{
-  color: rgb(26, 41, 117);
+  color: rgb(70, 76, 106);
 }
 
 a:hover{
-  color: rgb(66, 12, 12);
+  color: rgb(77, 11, 11);
 }
 
 .contactMe {
@@ -122,3 +133,11 @@ a:hover{
   padding: 8px 0;
 }
 
+
+/******************** Footer ***********************************************/
+
+footer p{
+  margin-top: 40px;
+}
+
+/*eventually add links to social media accounts with little icons*/
