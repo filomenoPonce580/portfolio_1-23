@@ -18,13 +18,11 @@ header, main, footer {
   font-family: 'Lora', serif;
 }
 
-/*section with .divider class
-   - creates a thing line that divides sections on page*/
-.divider{
-  width: 30%;
+
+hr{
   border: 1.5px solid rgba(95, 54, 54, 0.767);
+  width: 35%;
   border-radius: 3px;
-  margin: auto;
 }
 
 *{
@@ -77,10 +75,6 @@ p{
   margin-bottom: 5px;
 }
 
-ul{
-  margin-top: 5px;
-}
-
 
 /******************* Header *******************************************/
 
@@ -122,6 +116,7 @@ header span{
     - adds responsiveness*/
 a{
   color: rgb(70, 76, 106);
+  width: 15%;
 }
 
 a:hover{
@@ -129,8 +124,26 @@ a:hover{
 }
 
 .contactMe {
-  height: 200px;
+  height: 225px;
   padding: 8px 0;
+}
+
+ul, ol{
+  margin-top: 5px;
+  padding-left: 0;
+
+}
+
+ol li{
+  list-style: decimal;
+  list-style-position: outside;
+  width: 50px;
+  margin: auto;
+}
+
+ol{
+  width: 20%;
+  margin: auto;
 }
 
 
