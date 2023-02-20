@@ -12,3 +12,4 @@ Next steps:
 - Take professional photo and replace current photo
 - Navigation bar? (eventually set up multiple pages within website)
 - clean up code. Make use predetermined sections for content
+
